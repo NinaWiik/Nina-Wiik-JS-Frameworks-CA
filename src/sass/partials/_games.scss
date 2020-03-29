@@ -1,0 +1,56 @@
+.card {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    box-shadow: 8px 5px 20px black;
+    transition: all 0.4s;
+    background-color: #553f79;
+    color: white;
+
+    &::hover {
+        box-shadow: 0 0 0 #ccc;
+    }
+}
+
+.card-title.h5 {
+    font-size: 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.search {
+    margin: 2em 0;
+}
+
+.clear-search {
+    margin-bottom: 30px;
+}
+
+.clear-search_button {
+    margin-left: 10px;
+}
+
+
+.card-title.h5 {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    color: #79cadd;
+}
+
+
+.btn {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    box-shadow: 8px 3px 20px black;
+    background-color: #79cadd;
+    color: black;
+    font-weight: bold;
+}
+
+.detail-image {
+    padding: 0;
+    margin-top: 20px;
+}
+
+
